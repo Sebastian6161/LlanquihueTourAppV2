@@ -11,6 +11,7 @@ El objetivo principal de esta etapa fue diseñar e implementar una jerarquía de
 
 El código fuente se encuentra estrictamente organizado por responsabilidades en los siguientes paquetes:
 
+```text
 src/
 ├── data/
 │   └── GestorServicios.java       # Creación e impresión de instancias de prueba
@@ -21,6 +22,7 @@ src/
 │   └── ExcursionCultural.java     # Subclase especializada
 └── ui/
     └── Main.java                  # Punto de entrada de la aplicación
+```
 
 🛠️ Clases y Componentes Creados
 Paquete model
