@@ -7,21 +7,14 @@ El objetivo fue implementar una jerarquía de clases utilizando herencia, reutil
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Organización de Carpetas (Paquetes)
 
-El código fuente se encuentra estrictamente organizado por responsabilidades en los siguientes paquetes:
-
+El proyecto está ordenado en tres carpetas según su función:
 ```text
 src/
-├── data/
-│   └── GestorServicios.java       # Creación e impresión de instancias de prueba
-├── model/
-│   ├── ServicioTuristico.java     # Superclase base
-│   ├── RutaGastronomica.java      # Subclase especializada
-│   ├── PaseoLacustre.java         # Subclase especializada
-│   └── ExcursionCultural.java     # Subclase especializada
-└── ui/
-    └── Main.java                  # Punto de entrada de la aplicación
+├── model/     # Contiene las plantillas de los servicios turísticos
+├── data/      # Contiene los datos de prueba para revisar que todo funcione
+└── ui/        # Contiene el archivo principal para iniciar el programa
 ```
 
 🛠️ Clases y Componentes Creados:
